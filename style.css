@@ -110,3 +110,23 @@ outline: 1px solid var(--purple);
  font-weight: 700;
  color: var(--white);
 }
+
+.login > p {
+color: var(--gray--600);
+}
+
+.login > a {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+@media(min-width: 1000px){
+    header {
+        background: none;
+        justify-content: flex-start;
+    }
+
+    header img{
+width: 10rem;
+    }
+}
