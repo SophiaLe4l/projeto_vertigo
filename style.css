@@ -133,6 +133,8 @@ color: var(--gray--600);
 @media(min-width: 1000px){
     body {
         display: flex;
+        height: 100vh;
+
     }
 
     header {
@@ -162,6 +164,13 @@ color: var(--gray--600);
 
     .bg-desktop {
        display: block;
+       width: 100%;
+    }
+
+    .bg-desktop img {
+        display: block;
+       width: 100%;
+       height: 100%;
     }
     .descricao h1 {
         font-size: 2.5rem;
